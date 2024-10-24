@@ -1,6 +1,16 @@
 # Тестовое задание в компанию Tages
 
-## Setup
+### Стек:
+
+- Nuxt 3
+- Pinia
+- SCSS
+
+### Ссылка на рабочий проект (деплой)
+
+`https://testfortages.netlify.app/`
+
+### Setup
 
 Для запуска проекта необходимо установить зависимости
 
@@ -10,7 +20,7 @@ npm install
 
 ```
 
-## Development Server
+### Development Server
 
 Запустить дев сервер `http://localhost:3000`:
 
@@ -20,7 +30,7 @@ npm run dev
 
 ```
 
-## Production
+### Production
 
 Собрать для продакшена:
 
