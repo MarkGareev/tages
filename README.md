@@ -2,6 +2,7 @@
 
 ### Стек:
 
+- TS
 - Nuxt 3
 - Pinia
 - SCSS
