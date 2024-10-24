@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "SF Pro Display";
+  font-weight: normal;
+  font-style: normal;
+}
+// Чтобы страница не прыгала при появлении скроллбара
+body {
+  width: 100vw;
+  overflow-x: hidden;
+}
+// Обнуление дефолтных стилей
+ul {
+  list-style-type: none;
+}
+a {
+  text-decoration: none;
+  color: unset;
+}
+button {
+  outline: none;
+  background-color: unset;
+  border: none;
+}
+input,
+textarea,
+select {
+  appearance: none;
+  outline: none;
+  border: unset;
+  &:focus {
+    outline: none;
+  }
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}

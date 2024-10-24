@@ -1,0 +1,30 @@
+.header {
+  margin-bottom: 32px;
+  &__breadcrumbs {
+    &-list {
+      display: flex;
+      margin-bottom: 32px;
+      @media (width<$mobile-width) {
+        flex-direction: column;
+        gap: 5px;
+      }
+    }
+    &-item {
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 16px;
+      color: #727783;
+      cursor: pointer;
+      &:hover,
+      &--active {
+        color: $color-black;
+      }
+    }
+  }
+  &__title {
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 48px;
+  }
+}

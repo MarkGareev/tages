@@ -1,0 +1,28 @@
+.filters {
+  display: flex;
+  gap: 24px;
+  margin-bottom: 41px;
+  @media (width < $mobile-width) {
+    flex-direction: column;
+  }
+  &__item {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    &-title {
+      margin-left: 16px;
+    }
+    &-select {
+      width: 288px;
+      @media (width<$mobile-width) {
+        width: 100%;
+      }
+    }
+  }
+}
+.filter-title {
+  font-size: 12px;
+  line-height: 18px;
+  letter-spacing: 0.03em;
+  color: #4f4f4f;
+}
